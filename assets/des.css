@@ -1,0 +1,39 @@
+#title{
+    font-family: 'Daredevil';
+    color: azure;
+    font-size: 50px;
+
+}
+
+.button{
+
+    background-color:transparent;
+    border: none;
+    color:azure;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display:grid;
+    font-size: 30px;
+    font-family:monospace;
+}
+
+#whole{
+
+
+    background-repeat: no-repeat;
+
+}
+
+#head{
+       font-family: 'Daredevil';
+    color: azure;
+    font-size: 30px;
+
+}
+
+#content{
+   color:azure;
+   font-size: 25px;
+   font-family: 'Mohave Light',sans-serif;
+}

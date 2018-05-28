@@ -1,0 +1,22 @@
+{%load static from staticfiles%}
+<!DOCTYPE HTML>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>ENCORE</title>
+        <link rel="stylesheet" href="{%static 'des.css'%}" type="text/css">
+    </head>
+    <body background="{%static 'muse4.jpg'%}" style="background-repeat: no-repeat">
+        <div id="whole">
+        <div id="title" align="center" >
+            <h1>ENCORE</h1>
+        </div>
+        <div id="options" align="center" >
+        <a href="{% url 'about'%}"><input type="button" class="button" value="About"></a>
+        <a href="{%url 'people'%}"><input type="button" class="button" value="People"></a>
+        <a href="{% url 'ach'%}"><input type="button" class="button" value="Achievements"></a>
+        <a href="http://iiitvadodara.ac.in/about.php"><input type="button" class="button" value="About IIIT-Vadodara"></a>
+        </div>
+        </div>
+    </body>
+</html>
