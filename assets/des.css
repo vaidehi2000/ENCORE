@@ -19,9 +19,8 @@
 }
 
 #whole{
-
-
-    background-repeat: no-repeat;
+  color:azure;
+  background-repeat: no-repeat;
 
 }
 
@@ -36,4 +35,14 @@
    color:azure;
    font-size: 25px;
    font-family: 'Mohave Light',sans-serif;
+
+}
+
+.content{
+     color:azure;
+     font-size: 25px;
+     font-family: 'Mohave Light',sans-serif;
+     display:inline-table;
+     padding-left: 100px;
+     padding-right: 100px;
 }
