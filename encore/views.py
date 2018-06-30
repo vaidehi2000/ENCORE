@@ -9,6 +9,5 @@ def about(request):
 def people(request):
     return render(request,"people.html")
 
-
 def ach(request):
     return render(request,"ach.html")
