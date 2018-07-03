@@ -25,7 +25,7 @@ urlpatterns = [
     url(r'^about',views.about,name="about"),
     url(r'^people',views.people,name="people"),
     url(r'^achievements',views.ach,name="ach"),
-    url(r'^user',include('users.urls')),
+    url(r'^user/',include('users.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
